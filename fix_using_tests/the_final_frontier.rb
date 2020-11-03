@@ -10,7 +10,7 @@ def state_log(star_date)
 end
 
 def engage
-  generate_star_date
+  star_date = (rand(1000) + 400000) / 10.0
   puts state_log(star_date)
   date = generate_star_date
 end
